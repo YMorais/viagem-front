@@ -3,7 +3,7 @@ Projeto concluído!
 
 # Descubra Novos Destinos 🌍✨  
 
-![imagem de capa](capa.webp)  
+![imagem de capa](img/capa.webp)  
 
 ## Descrição  
 Este frontend é uma aplicação web simples e responsiva, onde o usuário pode informar uma cidade e um perfil de viajante e receber sugestões de passeios personalizados. O layout é amigável, otimizado com Tailwind CSS, e o foco é proporcionar uma experiência leve e envolvente.

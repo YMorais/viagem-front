@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerador de Passeios por IA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .bg-overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(4px);
+    }
+  </style>
+</head>
+<body class="min-h-screen font-sans flex items-center justify-center p-6">
+  <div class="container max-w-2xl mx-auto bg-overlay rounded-3xl shadow-2xl p-8">
+    <h1 class="text-4xl font-extrabold text-center text-blue-800 mb-6 tracking-tight">Vai Pra Onde? 🌍</h1>
+    <p class="text-center text-gray-600 text-lg italic mb-6">Deixe a IA te mostrar o melhor caminho. ✨</p>
+
+    <div class="space-y-5">
+      <div>
+        <label for="cidade" class="block text-gray-800 font-semibold">Cidade ou região:</label>
+        <input id="cidade" type="text" placeholder="Ex: Paris, Salvador, Gramado"
+          class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"/>
+      </div>
+
+      <div>
+        <label for="perfil" class="block text-gray-800 font-semibold">Perfil do viajante:</label>
+        <select id="perfil"
+          class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400">
+          <option value="Turista padrão">Turista padrão</option>
+          <option value="Família">Família</option>
+          <option value="Casal romântico">Casal romântico</option>
+          <option value="Explorador/Aventura">Explorador/Aventura</option>
+          <option value="Baixo orçamento">Baixo orçamento</option>
+          <option value="Acessibilidade">Acessibilidade</option>
+        </select>
+      </div>
+
+      <button onclick="gerarPasseios()"
+        class="w-full bg-gradient-to-r from-orange-400 to-pink-500 hover:from-orange-500 hover:to-pink-600 text-white font-bold py-3 rounded-xl shadow-md transition duration-300">
+        ✈️ Gerar Passeios
+      </button>
+    </div>
+
+    <div id="resultado" class="mt-10 hidden"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
