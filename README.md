@@ -39,7 +39,7 @@ Este frontend é uma aplicação web simples e responsiva, onde o usuário pode 
 - Yasmim Bueno de Morais - [GitHub](https://github.com/YMorais/) - yasmim.morais.senai@gmail.com
 
 ## Vercel
-- Yasmim Bueno de Morais - [Vercel](https://front-end-charadas.vercel.app/) - yasmim.morais.senai@gmail.com
+- Yasmim Bueno de Morais - [Vercel](https://viagem-front.vercel.app/) - yasmim.morais.senai@gmail.com
 
 ## Licença  
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
